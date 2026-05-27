@@ -42,4 +42,6 @@
 }
 #startTimerBtn:hover {
     background-color: #059669; /* Darker green on hover */
-}
+} 
+#resetTimerBtn:hover {
+    background-color: #dc2626; /* Darker red on hover */
