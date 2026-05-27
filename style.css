@@ -1,0 +1,45 @@
+/* Timer Section Styling */
+.timer-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center; /* Centers the timer elements */
+}
+
+/* Make the countdown look massive and modern */
+#timerDisplay {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1e293b;
+    margin: 20px 0;
+    font-family: monospace; /* Keeps numbers from shifting widths as they change */
+}
+
+/* Give the button a distinct 'action' look */
+#startTimerBtn {
+    background-color: #10b981; /* Agile Sprint Green */
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#resetTimerBtn {
+    background-color: #ef4444; /* Red for reset */
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#startTimerBtn:hover {
+    background-color: #059669; /* Darker green on hover */
+}
